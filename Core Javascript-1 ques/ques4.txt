@@ -1,0 +1,16 @@
+
+In JavaScript, the comma operator is used to evaluate multiple expressions in a single statement. 
+It allows you to combine expressions into a single expression, and the result of the entire expression is the value of the rightmost expression.
+
+for example,
+let x = 1;
+
+x = (x++, x);
+
+console.log(x);
+// Expected output: 2
+
+x = (2, 3);
+
+console.log(x);
+// Expected output: 3
