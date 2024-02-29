@@ -1,0 +1,18 @@
+A file-based storage system is a method of organizing and storing data in individual files on a computer or
+storage device. In this system, data is typically stored in a hierarchical structure, where directories 
+contain files and files may, in turn, contain data or information. Each file is a discrete unit that holds specific
+information, and the organization is often based on the user or application and needs.
+
+
+Despite their simplicity, file-based storage systems face a significant challenge: the absence of structured querying
+capabilities. Unlike relational databases that use SQL to query and manipulate data in a structured manner, file-based 
+systems lack a standardized querying language. This limitation makes it challenging to perform complex queries, 
+especially when dealing with large datasets or when intricate data relationships need to be navigated.
+In a file-based system, finding specific information can be akin to searching through an old-style filing cabinet–
+efficient for basic retrieval but cumbersome when dealing with intricate data relationships. Without the ability to 
+perform advanced queries, tasks such as filtering, sorting, and aggregating data become less intuitive and more 
+time-consuming.
+
+As technology advances and data complexity increases, the challenge of structured querying becomes more pronounced.
+While file-based systems remain valuable for certain use cases due to their simplicity and ease of use, addressing the 
+querying limitations is crucial for meeting the demands of modern data management.

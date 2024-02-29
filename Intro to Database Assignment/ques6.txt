@@ -1,0 +1,23 @@
+Data Modeling in software engineering is the process of simplifying the diagram or data model of a software system by
+ applying certain formal techniques. It involves expressing data and information through text and symbols. The data 
+ model provides the blueprint for building a new database or reengineering legacy applications.
+
+Data Modeling is the process of creating data models by which data associations and constraints are described and 
+eventually coded to reuse. It conceptually represents data with diagrams, symbols, or text to visualize the interrelation. 
+
+Data Modeling thus helps to increase consistency in naming, rules, semantics, and security. This, in turn, improves 
+data analytics. The emphasis is on the need for availability and organization of data, independent of the manner of 
+its application.
+
+Types of Data Modelling:
+1. Conceptual Model : It is a visual representation of database concepts and the relationships between them 
+identifying the high-level user view of data. Rather than the details of the database itself, it focuses on 
+establishing entities, characteristics of an entity, and relationships between them. 
+
+2. Logical Model : This model further defines the structure of the data entities and their relationships. Usually, a 
+logical data model is used for a specific project since the purpose is to develop a technical map of rules and data 
+structures.
+
+3. Physical Model : This is a schema or framework defining how data is physically stored in a database. It is used for 
+database-specific modeling where the columns include exact types and attributes. A physical model designs the internal 
+schema. The purpose is the actual implementation of the database.

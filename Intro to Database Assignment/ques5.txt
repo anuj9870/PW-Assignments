@@ -1,0 +1,37 @@
+
+Database Management Systems (DBMS) can be broadly classified into two main categories: 
+Relational DBMS (RDBMS) and Non-Relational DBMS (or NoSQL databases).
+
+1. Relational Database Management System (RDBMS):
+
+Data Model: Organizes data into tables with rows and columns, where each row represents a record and each column 
+represents a field or attribute. The relationships between tables are established using keys.
+
+Example: MySQL, PostgreSQL, Oracle, Microsoft SQL Server.
+
+Characteristics:
+
+Follows the principles of the relational model proposed by E.F. Codd.
+Uses Structured Query Language (SQL) for defining and manipulating the data.
+Ensures data integrity through constraints like primary keys, foreign keys, and unique constraints.
+Supports ACID properties (Atomicity, Consistency, Isolation, Durability) to guarantee data reliability in transactions.
+
+Use Cases:
+Suitable for applications with well-defined and structured data requirements.
+Commonly used in business applications, financial systems, and applications where data consistency is critical.
+
+2. Non-Relational Database Management System (NoSQL):
+Data Model: NoSQL databases use various data models such as document-oriented, key-value pairs, column-family, 
+and graph databases. The choice of model depends on the specific requirements of the application.
+
+Examples: MongoDB, CouchDB, Neo4j etc.
+
+Characteristics:
+Designed to handle unstructured or semi-structured data efficiently.
+Provides flexibility in data modeling, allowing developers to adapt to changing requirements.
+Often designed for horizontal scalability, making it easier to scale out by adding more servers.
+
+Use Cases:
+Ideal for scenarios where the data structure is dynamic or evolves rapidly.
+Suited for applications with large amounts of data or distributed data across multiple servers.
+Commonly used in web applications, real-time analytics, and scenarios where scalability and flexibility are crucial.

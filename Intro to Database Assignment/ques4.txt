@@ -1,0 +1,34 @@
+File-based storage systems, while simple, come with several challenges that Database Management Systems (DBMS) aim to
+ address. Here are five challenges and how DBMS tackles them:
+
+Data Redundancy and Inconsistency:
+In file-based systems, data redundancy is common, leading to inconsistencies. Multiple copies of the same 
+data may be stored in different files, making it challenging to maintain accuracy and consistency.
+DBMS provides normalization techniques, enforcing rules to reduce redundancy and maintain data integrity. 
+Relationships between tables help prevent anomalies, ensuring consistency in the database.
+
+Limited Query Capabilities:
+File-based systems lack a standardized querying language, making it difficult to perform complex queries or efficiently 
+retrieve specific information.
+DBMS, particularly relational databases, introduces SQL (Structured Query Language), a powerful and standardized 
+language for querying and manipulating data. This allows users to express complex queries for data retrieval and 
+analysis.
+
+Concurrency and Data Access Issues:
+In a file-based system, handling concurrent data access by multiple users or applications can lead to conflicts, 
+data corruption, and inconsistency.
+DBMS implements concurrency control mechanisms, such as locks and transactions, to manage access to data. This ensures 
+that multiple users can interact with the database simultaneously without compromising data integrity.
+
+Scalability Challenges:
+As data grows, file-based systems may struggle to scale, leading to performance issues and increased complexity in 
+managing a growing dataset.
+DBMS systems are designed to scale horizontally or vertically, accommodating increasing data volumes and user demands. 
+They provide mechanisms for efficient data storage, indexing, and retrieval to handle large datasets.
+
+Data Security and Access Control:
+File-based systems lack built-in security measures, making it challenging to control access to sensitive 
+data. Data may be vulnerable to unauthorized access or tampering.
+DBMS incorporates robust security features, including authentication, authorization, and encryption. Access control 
+mechanisms are implemented to restrict user access to specific data based on roles and permissions, ensuring data 
+security.
